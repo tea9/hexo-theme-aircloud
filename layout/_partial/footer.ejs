@@ -60,6 +60,16 @@
         </li>
         <% } %>
 
+        <% if (config.jianshu_username) { %>
+        <li>
+            <a target="_blank"  href="https://www.jianshu.com/in/<%= config.jianshu_username %>">
+                            <span class="fa-stack fa-lg">
+                                <i class="iconfont icon-github"></i>
+                            </span>
+            </a>
+        </li>
+        <% } %>
+
     </ul>
     <% if(config.friends) { %>
     <p>
